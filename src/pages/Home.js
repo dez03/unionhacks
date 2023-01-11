@@ -2,21 +2,26 @@ import React from 'react'
 import { Fragment } from "react";
 import { Popover, Transition } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
-import { ChevronRightIcon } from "@heroicons/react/20/solid";
-
+import HomeSVG from "../images/homeSVG.svg";
+import UHLogoNav from "../images/WHEAT_LOGO.svg";
+import FAQ from "../components/FAQ";
+import About from "../components/About" 
+import OurTeams from "../components/OurTeams";
+import Schedule from "../components/Schedule";
+import Sponsors from "../components/Sponsors";
 
 const navigation = [
-  { name: "Product", href: "#" },
-  { name: "Features", href: "#" },
-  { name: "Marketplace", href: "#" },
-  { name: "Company", href: "#" },
+  { name: "About", href: "#" },
+  { name: "FAQ", href: "#" },
+  { name: "Schedule", href: "#" },
+  { name: "Sponsors", href: "#" },
+  { name: "Our Team", href: "#" },
 ];
 
 const Home = () => {
   return (
     <div>
-      return (
-      <div className="relative overflow-hidden">
+      <div className="relative ">
         <Popover as="header" className="relative">
           <div className=" pt-6">
             <nav
@@ -26,10 +31,10 @@ const Home = () => {
               <div className="flex flex-1 items-center">
                 <div className="flex w-full items-center justify-between md:w-auto">
                   <a href="#">
-                    <span className="sr-only">UnionHacks</span>
+                    <span className="sr-only">UnionHacksAHHHHH</span>
                     <img
-                      className="h-8 w-auto sm:h-10"
-                      src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=500"
+                      className="h-10 w-auto sm:h-10"
+                      src={UHLogoNav}
                       alt=""
                     />
                   </a>
@@ -55,15 +60,9 @@ const Home = () => {
               <div className="hidden md:flex md:items-center md:space-x-6">
                 <a
                   href="#"
-                  className="text-base font-medium text-white hover:text-gray-300"
-                >
-                  Log in
-                </a>
-                <a
-                  href="#"
                   className="inline-flex items-center rounded-md border border-transparent bg-gray-600 px-4 py-2 text-base font-medium text-white hover:bg-gray-700"
                 >
-                  Start free trial
+                  Register
                 </a>
               </div>
             </nav>
@@ -82,12 +81,13 @@ const Home = () => {
               focus
               className="absolute inset-x-0 top-0 z-10 origin-top transform p-2 transition md:hidden"
             >
-              <div className="overflow-hidden rounded-lg bg-white shadow-md ring-1 ring-black ring-opacity-5">
+              <div className=" rounded-lg bg-white shadow-md ring-1 ring-black ring-opacity-5">
                 <div className="flex items-center justify-between px-5 pt-4">
                   <div>
                     <img
-                      className="h-8 w-auto"
-                      src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
+                      className="h-10 w-auto"
+                      // unionhacks logo here
+                      src={UHLogoNav}
                       alt=""
                     />
                   </div>
@@ -104,7 +104,7 @@ const Home = () => {
                       <a
                         key={item.name}
                         href={item.href}
-                        className="block rounded-md px-3 py-2 text-base font-medium text-gray-900 hover:bg-gray-50"
+                        className="block rounded-md px-3 py-2 text-base font-medium text-white hover:bg-gray-50"
                       >
                         {item.name}
                       </a>
@@ -133,40 +133,46 @@ const Home = () => {
         </Popover>
 
         <main>
-          <div className="  pt-10 sm:pt-16 lg:overflow-hidden lg:pt-8 lg:pb-14">
+          <div className="  pt-10 sm:pt-16 lg:pt-8 lg:pb-14">
             <div className="mx-auto max-w-7xl lg:px-8">
               <div className="lg:grid lg:grid-cols-2 lg:gap-8">
                 <div className="mx-auto max-w-md px-4 sm:max-w-2xl sm:px-6 sm:text-center lg:flex lg:items-center lg:px-0 lg:text-left">
                   <div className="lg:py-24">
-                    
-                    <h1 className="mt-4 text-4xl font-bold tracking-tight text-white sm:mt-5 sm:text-6xl lg:mt-6 xl:text-6xl">
-                      <span className="block">Think it. Code it.</span>
-                      <span className="block text-[#0e9fe1]">Win it.</span>
+                    <h1 className="mt-4 font-bold tracking-tight sm:mt-5 sm:text-6xl lg:mt-6 xl:text-6xl">
+                      <span className="block text-7xl text-white">
+                        UnionHacks
+                      </span>
                     </h1>
-                    <p className="mt-3 text-base text-gray-300 sm:mt-5 sm:text-xl lg:text-lg xl:text-xl">
-                      Anim aute id magna aliqua ad ad non deserunt sunt. Qui
-                      irure qui Lorem cupidatat commodo. Elit sunt amet fugiat
-                      veniam occaecat fugiat.
-                    </p>
+
+                    <span className="text-2xl text-[#0e9fe1] pb-4 ">
+                      Think it. Code it. Win it.
+                    </span>
+
+                    <span className="block text-3xl text-white mt-5 sm:mt-0">
+                      April 22, 2023
+                    </span>
+
+                    <p className="mt-3 text-base text-gray-300 sm:mt-5 sm:text-xl lg:text-lg xl:text-xl"></p>
                     <div className="mt-10 sm:mt-12">
                       <form
                         action="#"
                         className="sm:mx-auto sm:max-w-xl lg:mx-0"
                       >
-                        <div className="sm:flex">
-                          <div className="mt-3 sm:mt-0 sm:ml-3">
+                        <div className="lg:flex">
+                          <div className="mt-3 sm:mt-0 ml-0">
                             <button
                               type="submit"
-                              className="block w-full rounded-md bg-[#0e9fe1] py-3 px-4 font-medium text-white shadow hover:bg-indigo-600 focus:outline-none focus:ring-2 focus:ring-indigo-300 focus:ring-offset-2 focus:ring-offset-gray-900"
+                              className="block w-full rounded-md bg-[#0e9fe1] py-3 px-4 font-medium text-white shadow hover:bg-[#3eb2e7] focus:outline-none focus:ring-2 focus:ring-indigo-300 focus:ring-offset-2 focus:ring-offset-gray-900"
                             >
-                              Pre-Register
+                              Register
                             </button>
                           </div>
                         </div>
                         <p className="mt-3 text-sm text-gray-300 sm:mt-4">
-                          Pre-Registration does not mean you will be able to
-                          attend UnionHacks. Once registration opens, we will
-                          email you and you must fill out the registration form.{" "}
+                          Registration closes April 1st. If you do not register
+                          you will not be allowed to attend. You must be a
+                          student within the Union Township School District or
+                          in the Union County Magnet Schools.{" "}
                           <a href="#" className="font-medium text-white">
                             terms of service
                           </a>
@@ -180,8 +186,8 @@ const Home = () => {
                   <div className="mx-auto max-w-md px-4 sm:max-w-2xl sm:px-6 lg:max-w-none lg:px-0">
                     {/* Illustration taken from Lucid Illustrations: https://lucid.pixsellz.io/ */}
                     <img
-                      className="w-full lg:absolute lg:inset-y-0 lg:left-0 lg:h-full lg:w-auto lg:max-w-none"
-                      src="https://tailwindui.com/img/component-images/cloud-illustration-indigo-400.svg"
+                      className="w-full hidden lg:block lg:ml-24 lg:absolute lg:inset-y-0 lg:left-0 lg:h-full lg:w-auto lg:max-w-none"
+                      src={HomeSVG}
                       alt=""
                     />
                   </div>
@@ -193,6 +199,13 @@ const Home = () => {
           {/* More main page content here... */}
         </main>
       </div>
+
+      {/* ABOUT SECTION */}
+      <About />
+      <FAQ />
+      <Schedule />
+      <Sponsors />
+      <OurTeams />
     </div>
   );
 }

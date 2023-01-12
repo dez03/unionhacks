@@ -1,3 +1,6 @@
+# unionhacks
+unionhacks website built by issac, dylan and aviel 
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

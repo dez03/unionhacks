@@ -14,8 +14,36 @@ const About = () => {
       </div>
 
       <p className="text-left  text-[white] text-lg">
-        Welcome to UnionHacks, Union High School's first hackathon. At this 16-hour long event, students can meet new people with different skills sets, goals, and values to expand their social network. They will be able to enjoy free delicious food and a wide variety of games and small competitions for prizes. They will also have opportunities to speak with influential people in the tech field such as business executives, advocates, leaders, and real software engineers. Students compete against other teams to build the most innovative solutions to real problems. Our attendees will leave feeling full, happy that they either won amazing prizes or played some fun mini-games, met lifelong friends, and spoke with and learned from our influential guest speakers. 
+        Experience the ultimate in networking and innovation at UnionHacks,
+        Union High School's premier hackathon! Join us for 16 hours of
+        unparalleled opportunities to connect with like-minded individuals from
+        diverse backgrounds, skill sets, and goals. Indulge in delicious,
+        complimentary food and a wide array of engaging games and competitions
+        for the chance to win incredible prizes. Get inspired by industry
+        leaders and experts in the tech field as you engage in thought-provoking
+        conversations and gain valuable insights from business executives,
+        advocates, and real-life software engineers. Compete against other teams
+        to showcase your creativity and problem-solving skills as you build the
+        most innovative solutions to real-world challenges. Leave feeling
+        fulfilled, having made lifelong connections, walked away with amazing
+        prizes, and gained valuable experience and knowledge from our
+        distinguished guest speakers.
+      </p>
 
+      <h3 className="text-4xl font-bold pb-4 tracking-tight text-[white] pt-4">
+        When and where is UnionHacks?
+      </h3>
+      <p className="text-left  text-[white] text-lg">
+        UnionHacks will be held in the Big Gymnasium of Union High School. As
+        well as some classrooms.
+      </p>
+
+      <h3 className="text-4xl font-bold pb-4 tracking-tight text-[white] pt-4">
+        Who pays for this?
+      </h3>
+      <p className="text-left  text-[white] text-lg">
+        We have amazing sponsors who funded this event so it is free for
+        everyone!
       </p>
     </div>
   );

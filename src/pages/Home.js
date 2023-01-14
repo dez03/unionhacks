@@ -9,29 +9,33 @@ import About from "../components/About"
 import OurTeams from "../components/OurTeams";
 import Schedule from "../components/Schedule";
 import Sponsors from "../components/Sponsors";
+import "./Home.css";
+import Team from "../components/Team"
 
 const navigation = [
-  { name: "About", href: "#" },
-  { name: "FAQ", href: "#" },
-  { name: "Schedule", href: "#" },
-  { name: "Sponsors", href: "#" },
-  { name: "Our Team", href: "#" },
+  { name: "About", href: "#about" },
+  { name: "FAQ", href: "#faq" },
+  { name: "Schedule", href: "#schedule" },
+  { name: "Sponsors", href: "#sponsors" },
+  { name: "Our Team", href: "#ourteams" },
 ];
 
 const Home = () => {
   return (
     <div>
+      <div id="stars"></div>
+      <div id="stars2"></div>
       <div className="relative ">
         <Popover as="header" className="relative">
           <div className=" pt-6">
             <nav
-              className="relative mx-auto flex max-w-7xl items-center justify-between px-4 sm:px-6"
+              className="relative mx-auto flex max-w-7xl items-center justify-between px-4 sm:px-6 "
               aria-label="Global"
             >
-              <div className="flex flex-1 items-center">
+              <div className="flex flex-1 items-center ">
                 <div className="flex w-full items-center justify-between md:w-auto">
                   <a href="#">
-                    <span className="sr-only">UnionHacksAHHHHH</span>
+                    <span className="sr-only">UnionHacks</span>
                     <img
                       className="h-10 w-auto sm:h-10"
                       src={UHLogoNav}
@@ -45,7 +49,7 @@ const Home = () => {
                     </Popover.Button>
                   </div>
                 </div>
-                <div className="hidden space-x-8 md:ml-10 md:flex">
+                <div className="hidden space-x-8 md:ml-10 md:flex ">
                   {navigation.map((item) => (
                     <a
                       key={item.name}
@@ -133,13 +137,15 @@ const Home = () => {
         </Popover>
 
         <main>
+          <div id="stars"></div>
+          <div id="stars2"></div>
           <div className="  pt-10 sm:pt-16 lg:pt-8 lg:pb-14">
             <div className="mx-auto max-w-7xl lg:px-8">
               <div className="lg:grid lg:grid-cols-2 lg:gap-8">
                 <div className="mx-auto max-w-md px-4 sm:max-w-2xl sm:px-6 sm:text-center lg:flex lg:items-center lg:px-0 lg:text-left">
                   <div className="lg:py-24">
                     <h1 className="mt-4 font-bold tracking-tight sm:mt-5 sm:text-6xl lg:mt-6 xl:text-6xl">
-                      <span className="block text-7xl text-white">
+                      <span className="block text-5xl md:text-7xl text-white">
                         UnionHacks
                       </span>
                     </h1>
@@ -186,7 +192,7 @@ const Home = () => {
                   <div className="mx-auto max-w-md px-4 sm:max-w-2xl sm:px-6 lg:max-w-none lg:px-0">
                     {/* Illustration taken from Lucid Illustrations: https://lucid.pixsellz.io/ */}
                     <img
-                      className="w-full hidden lg:block lg:ml-24 lg:absolute lg:inset-y-0 lg:left-0 lg:h-full lg:w-auto lg:max-w-none"
+                      className="w-full hidden lg:block lg:ml-24 lg:absolute lg:inset-y-0 lg:left-0 lg:h-full lg:w-full lg:max-w-none"
                       src={HomeSVG}
                       alt=""
                     />
@@ -206,6 +212,7 @@ const Home = () => {
       <Schedule />
       <Sponsors />
       <OurTeams />
+      <Team/>
     </div>
   );
 }

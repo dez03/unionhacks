@@ -2,18 +2,18 @@ import React from 'react'
 
 const About = () => {
   return (
-    <div className="mx-auto max-w-7xl py-12 px-6 sm:py-16 lg:px-8 ">
+    <div className="mx-auto max-w-7xl py-12 px-6 sm:py-16 lg:px-8 " id="about">
       <div className="divide-y-2 divide-gray-200">
-        <h2 className="text-center lg:text-6xl font-bold tracking-tight text-[white] sm:text-4xl pb-4">
+        <h2 className="text-center lg:text-6xl font-bold tracking-tight text-[white] text-4xl pb-4">
           About
         </h2>
 
-        <h3 className="text-4xl font-bold pb-4 tracking-tight text-[white] pt-4">
+        <h3 className="text-3xl font-bold pb-4 tracking-tight text-[white] pt-4">
           What is UnionHacks?
         </h3>
       </div>
 
-      <p className="text-left  text-[white] text-lg">
+      <p className="text-left text-[white] text-base md:text-lg bg-[#111111]">
         Experience the ultimate in networking and innovation at UnionHacks,
         Union High School's premier hackathon! Join us for 16 hours of
         unparalleled opportunities to connect with like-minded individuals from
@@ -29,21 +29,10 @@ const About = () => {
         prizes, and gained valuable experience and knowledge from our
         distinguished guest speakers.
       </p>
-
-      <h3 className="text-4xl font-bold pb-4 tracking-tight text-[white] pt-4">
-        When and where is UnionHacks?
-      </h3>
-      <p className="text-left  text-[white] text-lg">
-        UnionHacks will be held in the Big Gymnasium of Union High School. As
-        well as some classrooms.
-      </p>
-
-      <h3 className="text-4xl font-bold pb-4 tracking-tight text-[white] pt-4">
-        Who pays for this?
-      </h3>
-      <p className="text-left  text-[white] text-lg">
-        We have amazing sponsors who funded this event so it is free for
-        everyone!
+      <br />
+      <p className="text-left text-[white] text-lg">
+        No experience necessary, we encourage all students who are interested to
+        attend. We have mentors and workshops for everyone.
       </p>
     </div>
   );

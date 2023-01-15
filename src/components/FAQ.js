@@ -5,7 +5,7 @@ const faqs = [
   {
     question: "What is a Hackathon?",
     answer:
-      "A hackathon usually a 24 hour event, during which a large number of students gather to engage in collaborative computer programming. Participants typically work in teams to develop new software or hardware projects, with the goal of creating functional prototypes or proof-of-concepts by the end of the event. Hackathons are often focused on specific themes, and can be organized by a variety of organizations, including companies, universities, and non-profits. They are often open to anyone who is interested in participating, and can be a great way for people with different skillsets to come together, collaborate, and learn from each other.",
+      "A hackathon usually a 24 hour event, during which a large number of students gather to engage in collaborative computer programming. Participants typically work in teams to develop new software or hardware projects, with the goal of creating functional prototypes or proof-of-concepts by the end of the event. Hackathons are often focused on specific themes, and can be organized by a variety of organizations, including businesses, universities, and non-profits. They are often open to anyone who is interested in participating, and can be a great way for people with different skillsets to come together, collaborate, and learn from each other.",
   },
   {
     question: "Who can attend?",
@@ -27,9 +27,9 @@ const faqs = [
       "Breakfast, lunch, and dinner will be provided. Along with snacks and candies throughout the event to ensure everyone can eat. There will be vegan and kosher options as well. ",
   },
   {
-    question: "What should bring?",
+    question: "What should I bring?",
     answer:
-      "You MUST bring your student ID, laptop, chargers, and any other technology you might need. This event is going to be long, so you can brng a change of clothes in case it gets really warm or cold (which we recommend doing), along with any personal items you might need during the 16 hours. "
+      "You MUST bring your student ID, laptop, chargers, and any other technology you might need. This event is going to be long, so you can brng a change of clothes in case it gets really warm or cold (which we recommend doing), along with any personal items you might need during the 16 hours. ",
   },
   {
     question: "What's the schedule?",
@@ -39,7 +39,7 @@ const faqs = [
   {
     question: "Are there prizes?",
     answer:
-      "Yes there will be prizes! Prizes will be annoucned at the event, so make sure you register for a chance to win some!",
+      "Yes there will be prizes! Prizes will be announced at the event, so make sure you register for a chance to win some!",
   },
   {
     question: "What's the registration deadline?",
@@ -59,7 +59,7 @@ const faqs = [
   {
     question: "What if I don't have a team?",
     answer:
-      "If you come alone, we recommend you talk to some new people and try to form a well rounded team. But don't worry if you can't, we will have a team formation section during the opening ceremony and create well balanced teams for anyone left.",
+      "If you come alone, we recommend you talk to some new people and try to form a well rounded team. However, we will have a team formation section during the opening ceremony and create well balanced teams for anyone left.",
   },
   {
     question: "Can I judge or mentor?",
@@ -79,23 +79,36 @@ const faqs = [
   {
     question: "Is there going to be security at this event?",
     answer:
-      "Yes! We will have school security, as well as some Union Police officers. So everyone is safe at this event. We will only allow students who have signed up to attend in the building and no one else.",
+      "Yes! We will have school security, as well as some Union Police officers. So everyone is safe at this event. We will only allow students who have signed up to attend in the building.",
   },
   {
     question: "Can I leave and come back?",
     answer:
-      "We really encourage that you stay the entire time, if you wish to leave, you must have a parent/guardian with you. Otherwise you are not allowed to leave. Once you are in, you're in. If you leave with a parent/guardian, you must come back with them. ",
+      "We really encourage that you stay the entire time, if you wish to leave, you must have a parent/guardian with you. If you leave with a parent/guardian, you must come back with them. ",
   },
   {
     question:
       "What if I don't want to code and I just want to listen to the guest speakers?",
     answer:
-      "That is perfectly fine! We want as many students who are interested in learning about technology to come. So if you just want to meet new people and attend our workshops, you're welcome to do so! But you will not be able to win any prizes, so we recommend competing as well. Although it is not required",
+      "That is perfectly fine! We want as many students who are interested in learning about technology to come. So if you just want to meet new people and attend our workshops, you're welcome to do so! But you will not be able to win any prizes, so we recommend competing as well. Although it is not required.",
   },
   {
     question: "Can my parent/guardian stay with me?",
-    answer:
-      "Your parents are not allowed to stay with you during this entire event. Your parent can sign up to chaperone if they would like to stay and help for a certain amount of time. If you're parent or guardian is interested in chaperoning, shoot us an email!",
+    answer: (
+      <p>
+        Your parents are not allowed to stay with you during this entire event.
+        Your parent can sign up to chaperone if they would like to stay and help
+        for a certain amount of time. If you're parent or guardian is interested
+        in chaperoning, please fill out this{" "}
+        <a
+          href="https://forms.gle/h1yiPCQFB5VJcZLx9"
+          target="_blank"
+          className="text-[#0e9fe1] hover:text-[#26a8e4] "
+        >
+          google form.
+        </a>
+      </p>
+    ),
   },
 
   {
@@ -105,11 +118,12 @@ const faqs = [
         Yes, there is! We will be following the{" "}
         <a
           href="https://static.mlh.io/docs/mlh-code-of-conduct.pdf"
-          className="text-[#0e9fe1] hover:text-[#26a8e4] underline"
+          target="_blank"
+          className="text-[#0e9fe1] hover:text-[#26a8e4] "
         >
           MLH Code of Conduct
         </a>
-        .
+        . Any misconduct will need to be reported to the UHS administration.
       </p>
     ),
   },

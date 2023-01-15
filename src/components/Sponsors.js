@@ -7,7 +7,7 @@ const Sponsors = () => {
       id="sponsors"
     >
       <div className="divide-y-2 divide-gray-200">
-        <h2 className="text-center lg:text-6xl font-bold tracking-tight text-[white] sm:text-4xl pb-4">
+        <h2 className="text-center lg:text-6xl font-bold tracking-tight text-[white] text-4xl pb-4">
           Sponsors
         </h2>
 

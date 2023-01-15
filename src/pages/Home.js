@@ -181,12 +181,8 @@ const Home = () => {
                         <p className="mt-3 text-sm text-gray-300 sm:mt-4">
                           Registration closes April 1st. If you do not register
                           you will not be allowed to attend. You must be a
-                          student within the Union Township School District or
-                          in the Union County Magnet Schools.{" "}
-                          <a href="#" className="font-medium text-white">
-                            terms of service
-                          </a>
-                          .
+                          student within the Township of Union Public Schools or
+                          in the Union County Magnet Schools.
                         </p>
                       </form>
                     </div>
@@ -217,7 +213,7 @@ const Home = () => {
       <Sponsors />
       <OurTeams />
       <Team />
-      <Merch />
+      {/* <Merch /> */}
     </div>
   );
 }

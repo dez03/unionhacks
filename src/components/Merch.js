@@ -27,16 +27,16 @@ const Merch = () => {
   return (
     <div className="mx-auto max-w-7xl py-12 px-6 sm:py-16 lg:px-8" id="merch">
       <div className="divide-y-2 divide-gray-200">
-        <h2 className="text-center lg:text-6xl font-bold tracking-tight text-[white] sm:text-4xl pb-4">
+        <h2 className="text-center lg:text-6xl font-bold tracking-tight text-[white] text-4xl pb-4">
           Merch
         </h2>
 
-        <div className="grid md:grid-cols-2 sm:grid-cols-1 gap-x-8 justify-items-center mt-6">
+        <div className="grid md:grid-cols-2 sm:grid-cols-1 gap-x-8 items-center justify-center">
           {merch.map((item) => (
-            <div key={item.id} className="my-10">
+            <div key={item.id} className="my-5 w-64">
               <a href="#">
                 <img
-                  className=""
+                  className="w-full"
                   src={item.image}
                   alt={`${item.name}`}
                 />

@@ -14,20 +14,16 @@ const About = () => {
       </div>
 
       <p className="text-left text-[white] text-base md:text-lg bg-[#111111]">
-        Experience the ultimate in networking and innovation at UnionHacks,
-        Union High School's premier hackathon! Join us for 16 hours of
-        unparalleled opportunities to connect with like-minded individuals from
-        diverse backgrounds, skill sets, and goals. Indulge in delicious,
-        complimentary food and a wide array of engaging games and competitions
-        for the chance to win incredible prizes. Get inspired by industry
-        leaders and experts in the tech field as you engage in thought-provoking
-        conversations and gain valuable insights from business executives,
-        advocates, and real-life software engineers. Compete against other teams
-        to showcase your creativity and problem-solving skills as you build the
-        most innovative solutions to real-world challenges. Leave feeling
-        fulfilled, having made lifelong connections, walked away with amazing
-        prizes, and gained valuable experience and knowledge from our
-        distinguished guest speakers.
+        UnionHacks is Union High School's first hackathon event. It is a 16-hour
+        opportunity for students to connect with like-minded individuals from
+        diverse backgrounds, skill sets, and goals. Attendees will have the
+        chance to participate in games and competitions, win prizes, hear from
+        industry leaders and experts, and engage in thought-provoking
+        conversations. Teams will also have the opportunity to showcase their
+        creativity and problem-solving skills by building innovative solutions
+        to real-world challenges. The event also includes complimentary food and
+        the chance to make lifelong connections, gain valuable experience and
+        knowledge from distinguished guest speakers.
       </p>
       <br />
       <p className="text-left text-[white] text-lg">

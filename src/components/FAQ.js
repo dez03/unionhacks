@@ -8,6 +8,11 @@ const faqs = [
       "A hackathon usually a 24 hour event, during which a large number of students gather to engage in collaborative computer programming. Participants typically work in teams to develop new software or hardware projects, with the goal of creating functional prototypes or proof-of-concepts by the end of the event. Hackathons are often focused on specific themes, and can be organized by a variety of organizations, including companies, universities, and non-profits. They are often open to anyone who is interested in participating, and can be a great way for people with different skillsets to come together, collaborate, and learn from each other.",
   },
   {
+    question: "Who can attend?",
+    answer:
+      "Any student from Union High School, the Union County Magnet Schools, any 8th grader from Burnet and Kawameeh middle school, and any homeschooled students who live in Union School District is allowed to attend. You must register and bring your student ID to attend. If you are homeschooled, please email us after you register for UnionHacks.",
+  },
+  {
     question: "Where will it be?",
     answer:
       "It will be in the Big Gymnasium of Union High School. You may enter through the rock door where you will then sign in, and head to the big gym.",
@@ -22,18 +27,19 @@ const faqs = [
       "Breakfast, lunch, and dinner will be provided. Along with snacks and candies throughout the event to ensure everyone can eat. There will be vegan and kosher options as well. ",
   },
   {
+    question: "What should bring?",
+    answer:
+      "You MUST bring your student ID, laptop, chargers, and any other technology you might need. This event is going to be long, so you can brng a change of clothes in case it gets really warm or cold (which we recommend doing), along with any personal items you might need during the 16 hours. "
+  },
+  {
     question: "What's the schedule?",
     answer:
       "Currently, the schedule is not released, but the hackathon will start at 8 AM and end at midnight the next day. (16 hours long)",
   },
   {
     question: "Are there prizes?",
-    answer: "Yes there will be prizes! We will have raffles as well. ",
-  },
-  {
-    question: "Who can attend?",
     answer:
-      "Any student over the age of 13 is allowed to attend. As long as you are a student in the Union School district, the Union County Magnet Schools, or Burnet and Kawameeh Middle school.",
+      "Yes there will be prizes! Prizes will be annoucned at the event, so make sure you register for a chance to win some!",
   },
   {
     question: "What's the registration deadline?",
@@ -48,7 +54,7 @@ const faqs = [
   {
     question: "How do teams work?",
     answer:
-      "Everyone who wishes to participate can compete in a team of up to 4 people. You may have less than 4, or compete alone if you wish. We do recommend getting 4 people so you can maxamize your projects potential, but that is not required.",
+      "Everyone who wishes to participate can compete in a team of up to 4 people. You may have less than 4, or compete alone if you wish. We do recommend getting 4 people so you can maximize your projects potential, but that is not required.",
   },
   {
     question: "What if I don't have a team?",
@@ -94,8 +100,18 @@ const faqs = [
 
   {
     question: "Is there a code of conduct?",
-    answer:
-      "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+    answer: (
+      <p>
+        Yes, there is! We will be following the{" "}
+        <a
+          href="https://static.mlh.io/docs/mlh-code-of-conduct.pdf"
+          className="text-[#0e9fe1] hover:text-[#26a8e4] underline"
+        >
+          MLH Code of Conduct
+        </a>
+        .
+      </p>
+    ),
   },
 
   // More questions...
@@ -119,8 +135,8 @@ export default function FAQ() {
                 {({ open }) => (
                   <>
                     <dt className="text-lg">
-                      <Disclosure.Button className="flex w-full items-start justify-between text-left text-[white]">
-                        <span className="font-bold text-[white]">
+                      <Disclosure.Button className="flex w-full items-start justify-between text-left text-[white] ">
+                        <span className="font-bold text-[white] relative">
                           {faq.question}
                         </span>
                         <span className="ml-6 flex h-7 items-center">
@@ -135,7 +151,9 @@ export default function FAQ() {
                       </Disclosure.Button>
                     </dt>
                     <Disclosure.Panel as="dd" className="mt-2 pr-12">
-                      <p className="text-base text-gray-400">{faq.answer}</p>
+                      <p className="text-base text-gray-400 relative ">
+                        {faq.answer} <br /> {faq.cellTemplate}{" "}
+                      </p>
                     </Disclosure.Panel>
                   </>
                 )}

@@ -1,6 +1,12 @@
 import React, { useState, useRef } from "react";
 import "./Team.css";
-import Aviel from "../images/professionalportrait.jpg"
+import Aviel from "../images/aviel.jpg"
+import Kaiya from "../images/Kaiya.jpg";
+import David from "../images/David.jpeg"
+import Issac from "../images/Issac.jpg"
+import Samah from "../images/Samah.jpeg";
+import Dias from "../images/Dias.jpeg";
+import Jailen from "../images/jailen.jpeg"
 
 const Team = () => {
   const [selectedPerson, setSelectedPerson] = useState(null);
@@ -25,106 +31,106 @@ const Team = () => {
       name: "Kaiya Koonhow",
       position: "Assistant Organizer",
       bio: "Hello! I'm a junior at UHS right now. Along with my other team members, I truly love contributing to UnionHacks' planning. Working with Aviel has made it easier for me to connect with and engage with my diverse community, which is something that is very important to me. I participate in two sports, and I love spending time outdoors. I can't wait to see how UnionHacks turns out and am REALLY looking forward to it!",
-      image: "https://via.placeholder.com/150",
+      image: Kaiya,
     },
     {
       id: 3,
-      name: "Jane Smith",
-      position: "COO",
-      bio: "Jane is the Chief Operating Officer of the company. She is responsible for the day-to-day operations and ensures the company runs smoothly.",
-      image: "https://via.placeholder.com/150",
+      name: "Samah Kershio",
+      position: "Head of Logistics Team",
+      bio: "Hi, my name is Samah Keshiro! I’m a senior at Union High School, and I plan on studying either computer science or software engineering in college. In the future, I want to become a programmer, or a software engineer in other words. A goal of mine this year was to get the exposure I want before college while also using my leadership and organization skills, and so I took on the role as the logistics manager for the UnionHacks event. I’m so excited for this event to be brought to life!",
+      image: Samah,
     },
     {
       id: 4,
-      name: "Anthony Chacon",
-      position: "COO",
-      bio: "Jane is the Chief Operating Officer of the company. She is responsible for the day-to-day operations and ensures the company runs smoothly.",
-      image: "https://via.placeholder.com/150",
+      name: "Issac Longo",
+      position: "Head of Design Team",
+      bio: "Hi, my name is Isaac Longo and I'm a senior and the valedictorian at UHS. I'm the head of the design team for UnionHacks and I've worked on flyers, Instagram posts, and even this website! After high school, I plan to study Computer Science and Computer Engineering. I've got my heart set on Princeton but we'll see where life takes me! Outside of school, I enjoy running, playing chess, and solving any puzzles I can get my hands on.",
+      image: Issac,
     },
     {
       id: 5,
-      name: "Christian Villar",
-      position: "Logistics Team",
-      bio: "Hey all Christian here. I am a future implementer and engineer. I am a team member of the logistics team.  Finally, I am excited to be part of the first Hackathon at UHS.",
-      image: "https://via.placeholder.com/150",
+      name: "Dylan Dias",
+      position: "Head of Outreach",
+      bio: "I am the outreach manager for Unionhacks, I communicate with sponsors to try to come for a workshop speaking event. I like what I do it’s amazing.",
+      image: Dias,
     },
     {
       id: 6,
       name: "David Castaneda",
       position: "Outreach Team",
       bio: "Hi Everyone! My name is David Castaneda, I am a senior, and I am part of UnionHack’s outreach team. I am also this year’s Vice President of the UHS Hackers Club. I am passionate for all things computer science. I help contact sponsors and speakers for this event. I am trying my hardest to gain the attention of the most influential guest speakers in order to ensure the best possible speech to be given at our Hackathon. I am so excited to see this Hackathon come into fruition and will be here for every step of the way!",
-      image: "https://via.placeholder.com/150",
+      image: David,
     },
     {
       id: 7,
-      name: "Jane Smith",
-      position: "COO",
-      bio: "Jane is the Chief Operating Officer of the company. She is responsible for the day-to-day operations and ensures the company runs smoothly.",
+      name: "Anthony Chacon",
+      position: "Design Team",
+      bio: "Hello, my name is Anthony Chacon. Part of the Design team helping with ideas and making parts for a bigger picture. Having a small team for such a big project is just perfect, and I think we nail everything on the head. My interests are mostly tech related, such as computers, code, visuals, video games, film, all that. I mainly take an interest in coding and video games, so I merge the two sometimes and try to make my own game. My plan for after high-school is either join one of the many different service branches or go directly into college. Looking into Kean and majoring in Cybersecurity with a minor of computer science. Then after that, hopefully getting back into digital arts and maybe even landing a job working for big companies like Google and have the income to help support my game creation.",
       image: "https://via.placeholder.com/150",
     },
     {
       id: 8,
-      name: "Jane Smith",
-      position: "COO",
-      bio: "Jane is the Chief Operating Officer of the company. She is responsible for the day-to-day operations and ensures the company runs smoothly.",
+      name: "Christian Villar",
+      position: "Logistics Team",
+      bio: "Hey all, Christian here. I am currently a senior and a logistic team member of UHS. I am currently on a pursuit to become a mechanical engineer.  Outside of school, I love to 3-D model and collect Nintendo Games. One project I worked on was  building a fan using an Arduino Uno. I love music from playing piano to just listening to it. I joined UnionHacks as I saw potential for people to come together to achieve a common goal.",
       image: "https://via.placeholder.com/150",
     },
     {
       id: 9,
       name: "Jailen Perez",
       position: "Outreach Team",
-      bio: "I am part of the outreach team. I help with things like trying to get companies to donate some money to us. And to get some impactful guest speakers at the event.",
-      image: "https://via.placeholder.com/150",
+      bio: "Hey my name is Jailen, I am part of the outreach team. I help with things like trying to get companies to donate some money to us. And to get some impactful guest speakers at the event. I plan on going to NJIT for collage and take CS classes. I've taken coding classes over the summer and some game design ones too. Outside of school I play video games with my friends, build pc's, code things, stream things (on discord), like to swim, and a lifeguard every summer.",
+      image: Jailen,
     },
     {
       id: 10,
-      name: "Jane Smith",
+      name: "Jeremy Rosero",
       position: "COO",
-      bio: "Jane is the Chief Operating Officer of the company. She is responsible for the day-to-day operations and ensures the company runs smoothly.",
+      bio: "Hi! I'm Jeremy Rosero, I'm a junior, and I am a part of the Logistics team in UnionHacks. I, with my partners will help ensure this event runs smoothly for everyone involved. Outside of UnionHacks, I pursue hobbies like the culinary arts and physical education/wellness. ",
       image: "https://via.placeholder.com/150",
     },
   ];
 
   return (
-    <div className="team-section">
-      <div className="team-grid">
-        {team.map((person) => (
-          <div key={person.id} className="team-card">
-            <img
-              className="team-image"
-              src={person.image}
-              alt={`${person.name}`}
-              onClick={() => setSelectedPerson(person)}
-            />
-            <div className="team-card-info text-white">
-              <h3 className="team-name">{person.name}</h3>
-              <p className="team-position">{person.position}</p>
+    <div className="mx-auto my-0  px-6 sm:py-16 lg:px-8" id="ourteams">
+        <div className="team-grid">
+          {team.map((person) => (
+            <div key={person.id} className="team-card">
+              <img
+                className="team-image"
+                src={person.image}
+                alt={`${person.name}`}
+                onClick={() => setSelectedPerson(person)}
+              />
+              <div className="team-card-info text-white">
+                <h3 className="team-name">{person.name}</h3>
+                <p className="team-position">{person.position}</p>
+              </div>
             </div>
-          </div>
-        ))}
-      </div>
-      {selectedPerson && (
-        <div className="modal-bg" onClick={handleClick}>
-          <div className="team-bio-modal" ref={modalRef}>
-            <img
-              className="team-image-modal"
-              src={selectedPerson.image}
-              alt={`${selectedPerson.name}`}
-            />
-            <div className="team-bio-text text-white">
-              <h3 className="team-name">{selectedPerson.name}</h3>
-              <p className="team-position">{selectedPerson.position}</p>
-              <p className="team-bio">{selectedPerson.bio}</p>
-            </div>
-            <button
-              className="team-bio-close-button text-white"
-              onClick={() => setSelectedPerson(null)}
-            >
-              Close
-            </button>
-          </div>
+          ))}
         </div>
-      )}
+        {selectedPerson && (
+          <div className="modal-bg" onClick={handleClick}>
+            <div className="team-bio-modal" ref={modalRef}>
+              <img
+                className="team-image-modal"
+                src={selectedPerson.image}
+                alt={`${selectedPerson.name}`}
+              />
+              <div className="team-bio-text text-white">
+                <h3 className="team-name">{selectedPerson.name}</h3>
+                <p className="team-position">{selectedPerson.position}</p>
+                <p className="team-bio">{selectedPerson.bio}</p>
+              </div>
+              <button
+                className="team-bio-close-button text-white"
+                onClick={() => setSelectedPerson(null)}
+              >
+                Close
+              </button>
+            </div>
+          </div>
+        )}
     </div>
   );
 };

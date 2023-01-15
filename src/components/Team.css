@@ -1,5 +1,4 @@
 .team-section {
-  background-color: #0e9fe1;
   padding: 4rem 0;
 }
 
@@ -33,7 +32,6 @@
   left: 0;
   width: 100%;
   padding: 1rem;
-  background-color: #0e9fe1;
 }
 
 .team-name {
@@ -82,7 +80,6 @@
   top: 0;
   right: 0;
   padding: 0.5rem 1rem;
-  background-color: #0e9fe1;
   border: none;
   cursor: pointer;
 }

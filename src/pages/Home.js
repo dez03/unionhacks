@@ -11,6 +11,7 @@ import Schedule from "../components/Schedule";
 import Sponsors from "../components/Sponsors";
 import "./Home.css";
 import Team from "../components/Team"
+import Merch from "../components/Merch"
 
 const navigation = [
   { name: "About", href: "#about" },
@@ -18,6 +19,7 @@ const navigation = [
   { name: "Schedule", href: "#schedule" },
   { name: "Sponsors", href: "#sponsors" },
   { name: "Our Team", href: "#ourteams" },
+  { name: "Merch", href: "#merch" }
 ];
 
 const Home = () => {
@@ -32,6 +34,8 @@ const Home = () => {
               className="relative mx-auto flex max-w-7xl items-center justify-between px-4 sm:px-6 "
               aria-label="Global"
             >
+              <div id="stars"></div>
+              <div id="stars2"></div>
               <div className="flex flex-1 items-center ">
                 <div className="flex w-full items-center justify-between md:w-auto">
                   <a href="#">
@@ -212,7 +216,8 @@ const Home = () => {
       <Schedule />
       <Sponsors />
       <OurTeams />
-      <Team/>
+      <Team />
+      <Merch />
     </div>
   );
 }

@@ -6,12 +6,12 @@ import HomeSVG from "../images/homeSVG.svg";
 import UHLogoNav from "../images/WHEAT_LOGO.svg";
 import FAQ from "../components/FAQ";
 import About from "../components/About" 
-import OurTeams from "../components/OurTeams";
+// import OurTeams from "../components/OurTeams";
 import Schedule from "../components/Schedule";
 import Sponsors from "../components/Sponsors";
 import "./Home.css";
 import Team from "../components/Team"
-import Merch from "../components/Merch"
+// import Merch from "../components/Merch"
 
 const navigation = [
   { name: "About", href: "#about" },
@@ -19,7 +19,7 @@ const navigation = [
   { name: "Schedule", href: "#schedule" },
   { name: "Sponsors", href: "#sponsors" },
   { name: "Our Team", href: "#ourteams" },
-  { name: "Merch", href: "#merch" }
+  // { name: "Merch", href: "#merch" }
 ];
 
 const Home = () => {
@@ -67,10 +67,11 @@ const Home = () => {
               </div>
               <div className="hidden md:flex md:items-center md:space-x-6">
                 <a
-                  href="#"
-                  className="inline-flex items-center rounded-md border border-transparent bg-gray-600 px-4 py-2 text-base font-medium text-white hover:bg-gray-700"
+                  href="https://forms.gle/bbWAXTxQvQUpz8hu5"
+                  target="_blank"
+                  className="inline-flex items-center rounded-md border border-transparent bg-[#0e9fe1] px-4 py-2 text-base font-medium text-white hover:bg-[#0c8fca]"
                 >
-                  Register
+                  Pre-Register
                 </a>
               </div>
             </nav>
@@ -119,20 +120,15 @@ const Home = () => {
                     ))}
                   </div>
                   <div className="mt-6 px-5">
-                    <a
-                      href="#"
-                      className="block w-full rounded-md bg-indigo-600 py-3 px-4 text-center font-medium text-white shadow hover:bg-indigo-700"
-                    >
-                      Start free trial
-                    </a>
-                  </div>
-                  <div className="mt-6 px-5">
-                    <p className="text-center text-base font-medium text-gray-500">
-                      Existing customer?{" "}
-                      <a href="#" className="text-gray-900 hover:underline">
-                        Login
+                    <div className="mt-3 sm:mt-0 ml-0">
+                      <a
+                        href="https://forms.gle/bbWAXTxQvQUpz8hu5"
+                        target="_blank"
+                        className="bouncy inline-flex items-center rounded-md border border-transparent bg-[#0e9fe1] px-4 py-2 text-base font-medium text-white hover:bg-[#0c8fca]"
+                      >
+                        Pre-Register
                       </a>
-                    </p>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -170,19 +166,21 @@ const Home = () => {
                       >
                         <div className="lg:flex">
                           <div className="mt-3 sm:mt-0 ml-0">
-                            <button
-                              type="submit"
-                              className="block w-full rounded-md bg-[#0e9fe1] py-3 px-4 font-medium text-white shadow hover:bg-[#3eb2e7] focus:outline-none focus:ring-2 focus:ring-indigo-300 focus:ring-offset-2 focus:ring-offset-gray-900"
+                            <a
+                              href="https://forms.gle/bbWAXTxQvQUpz8hu5"
+                              target="_blank"
+                              className="bouncy inline-flex items-center rounded-md border border-transparent bg-[#0e9fe1] px-4 py-2 text-base font-medium text-white hover:bg-[#0c8fca]"
                             >
-                              Register
-                            </button>
+                              Pre-Register
+                            </a>
                           </div>
                         </div>
                         <p className="mt-3 text-sm text-gray-300 sm:mt-4">
-                          Registration closes April 1st. If you do not register
-                          you will not be allowed to attend. You must be a
-                          student within the Township of Union Public Schools or
-                          in the Union County Magnet Schools.
+                          Registration will open in a few weeks. Please
+                          pre-register so you can be notified when registration
+                          opens. You must be a student within the Township of
+                          Union Public Schools, in Union County Vocational Technical
+                          Schools, or in 8th grade at Burnet and Kawameeh Middle School. 
                         </p>
                       </form>
                     </div>
@@ -211,7 +209,7 @@ const Home = () => {
       <FAQ />
       <Schedule />
       <Sponsors />
-      <OurTeams />
+      {/* <OurTeams /> */}
       <Team />
       {/* <Merch /> */}
     </div>

@@ -17,7 +17,13 @@ const Sponsors = () => {
       </div>
 
       <p className="text-center tracking-tight text-[white] divide-solid divide-x divide-gray-50">
-        If you'd like to sponsor us, email us at [REDACTED]
+        If you'd like to sponsor us, email us at{" "}
+        <a
+          className="text-[#0e9fe1] hover:text-[#26a8e4] "
+          href="mailto: unionhacks.team@gmail.com"
+        >
+          unionhacks.team@gmail.com
+        </a>
       </p>
     </div>
   );

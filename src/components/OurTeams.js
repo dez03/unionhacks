@@ -8,13 +8,7 @@ return (
                 Our Team
             </h2>
             <h3></h3>
-            {/* <h3 className="text-4xl font-bold pb-4 tracking-tight text-[white] divide-y-2 divide-gray-200">
-                Staff 🤝
-            </h3> */}
         </div>
-        {/* <p className="text-left tracking-tight text-[white] divide-solid divide-x divide-gray-50">
-            test
-        </p> */}
     </div>
 )
 }

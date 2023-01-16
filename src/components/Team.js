@@ -133,14 +133,17 @@ const Team = () => {
           {team.map((person) => (
             <div
               key={person.id}
-              className="bg-[#111111] hover:bg-[#222222] m-4 w-[300px] h-[400px] relative"
+              className="bg-[#111111] m-4 w-[300px] h-[400px] relative"
             >
-              <img
-                className="w-full h-96 object-cover cursor-pointer"
-                src={person.image}
-                alt={`${person.name}`}
-                onClick={() => setSelectedPerson(person)}
-              />
+              
+                <img
+                  className="w-full h-96 object-cover cursor-pointer"
+                  src={person.image}
+                  alt={`${person.name}`}
+                  onClick={() => setSelectedPerson(person)}
+                />
+               
+              
               <div className="absolute bottom-0 left-0 w-full pt-4 text-white">
                 <h3 className="text-2xl font-bold">{person.name}</h3>
                 <h4 className="text-[#0e9fe1] ">{person.position}</h4>

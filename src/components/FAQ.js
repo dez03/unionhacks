@@ -99,15 +99,15 @@ const faqs = [
     question:
       "What if I don't want to code and I just want to listen to the guest speakers?",
     answer:
-      "That is perfectly fine! We want as many students who are interested in learning about technology to come. If you just want to meet new people and attend our workshops, you're welcome to do so! However, you will not be able to win any prizes if you don't compete, so we recommend competing as well. Although it is not required.",
+      "That is perfectly fine! We want as many students who are interested in learning about technology to come. If you just want to meet new people and attend our workshops, you're welcome to do so! However, you will not be able to win any prizes if you don't submit a project.",
   },
   {
     question: "Can my parent/guardian stay with me?",
     answer: (
       <p>
-        Your parents are not allowed to stay with you during this entire event.
-        Your parent can sign up to chaperone if they would like to stay and help
-        for a certain amount of time. If you're parent or guardian is interested
+        Your parents are not allowed to stay with you during this event.
+        However, they can sign up to chaperone if they would like to stay and help
+        out. If you're parent or guardian is interested
         in chaperoning, please fill out this{" "}
         <a
           href="https://forms.gle/h1yiPCQFB5VJcZLx9"

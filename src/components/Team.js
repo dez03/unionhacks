@@ -121,7 +121,7 @@ const Team = () => {
   return (
     <div
       className="mx-auto max-w-7xl pb-[-100px] px-6 sm:py-16 lg:px-8"
-      id="ourteams"
+      id="team"
     >
       <div id="stars"></div>
       <div id="stars2"></div>

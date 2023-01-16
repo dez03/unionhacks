@@ -12,13 +12,14 @@ import Sponsors from "../components/Sponsors";
 import "./Home.css";
 import Team from "../components/Team"
 // import Merch from "../components/Merch"
+import Footer from "../components/Footer"
 
 const navigation = [
   { name: "About", href: "#about" },
   { name: "FAQ", href: "#faq" },
   { name: "Schedule", href: "#schedule" },
   { name: "Sponsors", href: "#sponsors" },
-  { name: "Our Team", href: "#ourteams" },
+  { name: "Our Team", href: "#team" },
   // { name: "Merch", href: "#merch" }
 ];
 
@@ -209,9 +210,9 @@ const Home = () => {
       <FAQ />
       <Schedule />
       <Sponsors />
-      {/* <OurTeams /> */}
       <Team />
       {/* <Merch /> */}
+      <Footer />
     </div>
   );
 }

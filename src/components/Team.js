@@ -133,7 +133,7 @@ const Team = () => {
           {team.map((person) => (
             <div
               key={person.id}
-              className="bg-[#111111] m-4 w-[300px] h-[400px] relative"
+              className="bg-[#111111] hover:bg-[#222222] m-4 w-[300px] h-[400px] relative"
             >
               <img
                 className="w-full h-96 object-cover cursor-pointer"

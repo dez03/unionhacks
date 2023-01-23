@@ -70,8 +70,13 @@ export default function Footer() {
           </a>
         ))}
       </div>
-      <p className="mt-10 text-center text-xs leading-5 text-gray-500">
-        &copy; UnionHacks 2023. All rights reserved.
+      <p className="mt-10 text-center text-sm leading-5 text-gray-500">
+        &copy; UnionHacks 2023. <br></br>Developed by{" "}
+        <span className="font-bold hover:text-gray-400">
+          <a href="https://beacons.ai/aviel">Aviel Hernandez</a>
+        </span>
+        , <span className="font-bold">Issac Longo</span>, and{" "}
+        <span className="font-bold">Dylan Dias</span>.
       </p>
     </div>
   );

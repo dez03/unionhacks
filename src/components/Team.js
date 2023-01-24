@@ -1,18 +1,18 @@
 import React, { useState, useRef } from "react";
 import "./Team.css";
-import Aviel from "../images/aviel.jpg"
+import Aviel from "../images/aviel.jpg";
 import Kaiya from "../images/Kaiya.jpg";
-import David from "../images/David.jpeg"
-import Issac from "../images/Issac.jpg"
+import David from "../images/David.jpeg";
+import Issac from "../images/Issac.jpg";
 import Samah from "../images/Samah.jpeg";
 import Dias from "../images/Dias.jpeg";
-import Jailen from "../images/jailen.jpeg"
-import Jeremy from "../images/jeremy.png"
-import JasonA from "../images/jasonA.jpg"
-import Christian from "../images/christianVillar.jpg"
+import Jailen from "../images/jailen.jpeg";
+import Jeremy from "../images/jeremy.png";
+import JasonA from "../images/jasonA.jpg";
+import Christian from "../images/christianVillar.jpg";
 // import Default from "../images/default.png"
-import Anthony from "../images/anothonyC.jpg"
-import DylanF from "../images/DylanF.jpeg"
+import Anthony from "../images/anothonyC.jpg";
+import DylanF from "../images/DylanF.jpeg";
 import { XMarkIcon } from "@heroicons/react/24/outline";
 
 const Team = () => {

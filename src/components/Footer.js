@@ -75,7 +75,7 @@ export default function Footer() {
         <span className="font-bold hover:text-gray-400">
           <a href="https://beacons.ai/aviel">Aviel Hernandez</a>
         </span>
-        , <span className="font-bold">Issac Longo</span>, and{" "}
+        , <span className="font-bold">Isaac Longo</span>, and{" "}
         <span className="font-bold">Dylan Dias</span>.
       </p>
     </div>

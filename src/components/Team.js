@@ -14,6 +14,7 @@ import Christian from "../images/christianVillar.jpg";
 import Anthony from "../images/anothonyC.jpg";
 import DylanF from "../images/DylanF.jpeg";
 import { XMarkIcon } from "@heroicons/react/24/outline";
+import Jace from "../images/jace.jpg"
 
 const Team = () => {
   const [selectedPerson, setSelectedPerson] = useState(null);
@@ -117,6 +118,13 @@ const Team = () => {
       position: "Outreach Team",
       bio: "Hey! My name is Jailen and I am part of the Outreach Team. I help with things like reaching out to potential sponsors and guest speakers. I plan on going to NJIT to study CS. I've taken coding and game design classes over the summer. Outside of school I play video games with my friends, build PCs, code, stream, and swim. I work as a lifeguard every summer.",
       image: Jailen,
+    },
+    {
+      id: 13,
+      name: "Jace Lopez",
+      position: "UCVTS Ambassador",
+      bio: "Hey guys! My name is Jace Lopez, and I am the UCVTS Ambassador for the Union Hacks event. In my free time I enjoy watching anime, playing video games, and learning more about software engineering. My job is to make sure that people who go to my school have the opportunity to participate in this event. Many of the people at UCVTS are well-versed with coding and programming, so it will be fun to see what experience and knowledge we can provide and/or gain at this event!",
+      image: Jace,
     },
   ];
 

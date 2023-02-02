@@ -31,12 +31,12 @@ const Merch = () => {
   return (
     <div className="mx-auto max-w-7xl py-12 px-6 sm:py-16 lg:px-8 " id="Merch">
       
-      <div className="divide-y-2 divide-gray-200 flex bg-blue-50 flex-col">
+      <div className="divide-y-2 divide-gray-200 flex flex-col">
         <h2 className="text-center lg:text-6xl font-bold tracking-tight text-[white] text-4xl pb-4">
           Merch
         </h2>
 
-        <div className="items-center justify-between px-24 flex ">
+        <div className="items-center justify-between px-24 flex flex-col lg:flex-row">
           {merch.map((item) => (
             <div key={item.id} className="my-5 w-64">
               <div className="w-full overflow-hidden rounded-lg relative bg-[#111111]">

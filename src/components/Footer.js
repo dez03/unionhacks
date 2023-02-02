@@ -39,11 +39,11 @@ const navigation = {
 
 export default function Footer() {
   return (
-    <div className="mx-auto max-w-7xl overflow-hidden py-20 px-6 sm:py-20 lg:px-8">
+    <div className=" mx-auto max-w-7xl overflow-hidden py-20 px-6 sm:py-10 sm:flex sm:flex-col sm:items-center lg:px-8">
       <div id="stars"></div>
       <div id="stars2"></div>
       <nav
-        className="mb-6 columns-2 sm:flex sm:justify-center sm:space-x-12"
+        className="mb-6 sm:items-center columns-2 sm:flex sm:justify-center sm:space-x-12"
         aria-label="Footer"
       >
         {navigation.main.map((item) => (

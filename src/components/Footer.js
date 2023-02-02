@@ -5,7 +5,7 @@ const navigation = {
     { name: "Schedule", href: "#schedule" },
     { name: "Sponsors", href: "#sponsors" },
     { name: "Our Team", href: "#team" },
-    // { name: "Merch", href: "#merch" }
+    { name: "Merch", href: "#Merch" }
   ],
   social: [
     {

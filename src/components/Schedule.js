@@ -17,7 +17,7 @@ const Schedule = () => {
       </div>
 
       <p className="text-center tracking-tight text-[white] divide-solid divide-x divide-gray-50">
-        We will release the schedule soon!
+        We will release the schedule closer to the date of UnionHacks.
       </p>
     </div>
   );

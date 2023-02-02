@@ -9,7 +9,7 @@ import Dias from "../images/Dias.jpeg";
 import Jailen from "../images/jailen.jpeg";
 import Jeremy from "../images/jeremy.png";
 import JasonA from "../images/jasonA.jpg";
-import Christian from "../images/christianVillar.jpg";
+// import Christian from "../images/christianVillar.jpg";
 // import Default from "../images/default.png"
 import Anthony from "../images/anothonyC.jpg";
 import DylanF from "../images/DylanF.jpeg";

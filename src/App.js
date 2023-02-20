@@ -1,16 +1,21 @@
 import Home from "./pages/Home"
 import './App.css'
+import sponsorshipinfo from "./pages/sponsorshipinfo";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
-    <div className="App">
-      {/* <div id="stars"></div>
-      <div id="stars2"></div> */}
-
+    <Router className="app">
+      {/* <ScrollToTop /> */}
       <Home />
-      {/* <div id="stars"></div> 
-      <div id="stars2"></div> */}
-    </div>
+      <sponsorshipinfo />
+      <div>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/sponsorshipinfo" element={<sponsorshipinfo />} />
+        </Routes>
+      </div>
+    </Router>
   );
 }
 

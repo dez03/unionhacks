@@ -10,6 +10,7 @@ import "./Home.css";
 import Team from "../components/Team"
 import Merch from "../components/Merch";
 import Footer from "../components/Footer"
+import { NavLink } from "react-router-dom";
 
 const Home = () => {
   return (
@@ -17,7 +18,7 @@ const Home = () => {
       <div id="stars"></div>
       <div id="stars2"></div>
       <div className="relative ">
-        <Navbar/>
+        <Navbar />
         <main>
           <div id="stars"></div>
           <div id="stars2"></div>

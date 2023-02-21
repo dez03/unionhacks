@@ -8,9 +8,8 @@ import Schedule from "../components/Schedule";
 import Sponsors from "../components/Sponsors";
 import "./Home.css";
 import Team from "../components/Team"
-import Merch from "../components/Merch";
+// import Merch from "../components/Merch";
 import Footer from "../components/Footer"
-import { NavLink } from "react-router-dom";
 
 const Home = () => {
   return (
@@ -94,7 +93,7 @@ const Home = () => {
       <Schedule />
       <Sponsors />
       <Team />
-      <Merch />
+      {/* <Merch /> */}
       <Footer />
     </div>
   );

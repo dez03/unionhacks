@@ -7,6 +7,7 @@ import About from "../components/About"
 import Schedule from "../components/Schedule";
 import Sponsors from "../components/Sponsors";
 import "./Home.css";
+import Speakers from "../components/Speakers"
 import Team from "../components/Team"
 // import Merch from "../components/Merch";
 import Footer from "../components/Footer"
@@ -90,8 +91,9 @@ const Home = () => {
       {/* ABOUT SECTION */}
       <About />
       <FAQ />
-      <Schedule />
+      <Speakers/>
       <Sponsors />
+      <Schedule />
       <Team />
       {/* <Merch /> */}
       <Footer />

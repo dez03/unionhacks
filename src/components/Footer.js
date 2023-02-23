@@ -2,8 +2,9 @@ const navigation = {
   main: [
     { name: "About", href: "#about" },
     { name: "FAQ", href: "#faq" },
-    { name: "Schedule", href: "#schedule" },
+    { name: "Speakers", href: "#speakers" },
     { name: "Sponsors", href: "#sponsors" },
+    { name: "Schedule", href: "#schedule" },
     { name: "Our Team", href: "#team" },
   ],
   social: [

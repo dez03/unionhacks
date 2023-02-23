@@ -7,8 +7,9 @@ import UHLogoNav from "../images/WHEAT_LOGO.svg";
 const navigation = [
   { name: "About", href: "#about" },
   { name: "FAQ", href: "#faq" },
-  { name: "Schedule", href: "#schedule" },
+  { name: "Speakers", href: "#speakers" },
   { name: "Sponsors", href: "#sponsors" },
+  { name: "Schedule", href: "#schedule" },
   { name: "Our Team", href: "#team" },
   // { name: "Merch", href: "#Merch" },
 ];

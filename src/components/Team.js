@@ -52,7 +52,7 @@ const Team = () => {
       id: 4,
       name: "Isaac Longo",
       position: "Head of Design Team",
-      bio: "Hi, my name is Isaac Longo and I'm a senior and the valedictorian at UHS. I'm the head of the design team for UnionHacks and I've worked on flyers, Instagram posts, and even this website! After high school, I plan to study Computer Science and Computer Engineering. I've got my heart set on Princeton but we'll see where life takes me! Outside of school, I enjoy running, playing chess, and solving any puzzles I can get my hands on.",
+      bio: "Hi, my name is Isaac Longo and I'm a senior at UHS. I'm the head of the design team for UnionHacks and I've worked on flyers, Instagram posts, and even this website! After high school, I plan to study Computer Science and Computer Engineering. I've got my heart set on Princeton but we'll see where life takes me! Outside of school, I enjoy running, playing chess, and solving any puzzles I can get my hands on.",
       image: Issac,
     },
     {

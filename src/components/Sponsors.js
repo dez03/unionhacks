@@ -55,6 +55,12 @@ const Sponsors = () => {
               className="h-40 text-center"
             ></img>
           </a>
+          <a href="https://slingshotahead.com/">
+            <img
+              src="https://d2zdpiztbgorvt.cloudfront.net/region1/us/447201/cover/d5dfe7787ca44847bf82a4a06ea16a-jc-s-barber-house-934acbfb628b4af9b3556fc1bd4781-booksy.jpeg?size=640x427"
+              className="h-40 text-center"
+            ></img>
+          </a>
         </h3>
       </div>
 

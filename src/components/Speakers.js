@@ -135,9 +135,6 @@ const Team = () => {
           </div>
         )}
       </div>
-      <p className="text-center tracking-tight text-[white]  divide-solid divide-x divide-gray-50">
-        More will be announced soon!
-      </p>
     </div>
   );
 };

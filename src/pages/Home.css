@@ -1,3 +1,36 @@
+.my-scrollbar-style::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+.my-scrollbar-style::-webkit-scrollbar-thumb {
+  background-color: #d4d4d4;
+  border-radius: 6px;
+}
+
+.my-scrollbar-style::-webkit-scrollbar-thumb:hover {
+  background-color: #a6a6a6;
+}
+
+.my-scrollbar-style::-webkit-scrollbar-thumb:active {
+  background-color: #7c7c7c;
+}
+
+.my-scrollbar-style::-webkit-scrollbar-track:active {
+  background-color: #e0e0e0;
+}
+
+.my-scrollbar-style::-webkit-scrollbar-corner {
+  background-color: transparent;
+}
+
+
+
+
+
+
+
+
+
 .bouncy{
   animation: bouncy 3s infinite linear;
   position: relative;

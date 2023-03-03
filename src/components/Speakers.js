@@ -1,20 +1,12 @@
 import React, { useState, useRef } from "react";
 import "./Team.css";
+import Avi from "../images/avi.JPG"
 import Zane from "../images/zane.JPG";
 import Brandon from "../images/brandon.JPG";
 import Noah from "../images/noah.JPG";
-import Issac from "../images/Issac.jpg";
-import Samah from "../images/Samah.jpeg";
-import Dias from "../images/Dias.jpeg";
-import Jailen from "../images/jailen.jpeg";
-import Jeremy from "../images/jeremy.png";
-import JasonA from "../images/jasonA.jpg";
-// import Christian from "../images/christianVillar.jpg";
-// import Default from "../images/default.png"
-import Anthony from "../images/anothonyC.jpg";
-import DylanF from "../images/DylanF.jpeg";
+import Kathleen from "../images/kwalsh.jpg";
+import Val from "../images/valjava.jpg"
 import { XMarkIcon } from "@heroicons/react/24/outline";
-import Jace from "../images/jace.jpg";
 
 const Team = () => {
   const [selectedPerson, setSelectedPerson] = useState(null);
@@ -47,6 +39,27 @@ const Team = () => {
       position: "CMO and Head of Media @ Spotlyte",
       bio: "Hey! I’m Brandon, a current sophomore at Swarthmore College. I am currently the Co-Founder of an art platform called Try Bluum and the CMO at Spotlyte. I am currently on track to be an engineering major and math minor. Outside of class I have found a love for traveling, meeting new people, fishing, and surfing. In all the different aspects of my life, I have found a genuine passion in connecting people and helping others reach their goals. I am excited to attend UnionHacks with a few members of the Spotlyte team and can’t wait to see you all there!",
       image: Brandon,
+    },
+    {
+      id: 4,
+      name: "Avi Schiffmann",
+      position: "Founder of InternetActivism",
+      bio: "Bio Coming Soon. ",
+      image: Avi,
+    },
+    {
+      id: 4,
+      name: "Kathleen R. Walsh",
+      position: "Chief of Staff @ GitHub",
+      bio: "Kathleen R. Walsh is currently a Chief of Staff at GitHub and an adjunct professor in Data and AI Ethics at the Ramapo College of New Jersey. She enjoys learning new things in her spare time (most recently how to make neon signs!) and traveling around the world. She advocates for women in STEM and coaches students in tech through hackathons and mentoring.  Kathleen sits as an advisor on Ramapo College’s Center for Data, Mathematical, and Computational Sciences and both the County College of Morris and Brookdale Computer Science Advisory Boards.  She has spoken at many Enterprise / Business Architecture, Process, Engineering, Defense, and Psychology Conferences. Before GitHub, Kathleen worked as the Chief of Staff of Network Integration at Verizon, where she streamlined operations and standardized project management across a portfolio of 400 projects.  She also had been the Product Owner of 1:1 Personalization, developing the strategy for the enablement of personalization using Artificial Intelligence.  Prior to joining Verizon, she was an Enterprise and Business Architect with the Department of Defense, developing the Army's first Business capability map.  Since receiving her Master's in Systems Engineering from Stevens Institute of Technology, Kathleen has been fascinated with applying architecture to all sorts of things - from war games to film-making to Virtual Reality to herself.  She continues to break boundaries, and is currently experimenting with Augmented & Virtual Reality, problem solving, gamification, films, and storytelling and is excited to see what the future of user experience holds with these immersive technologies Kathleen's website: https://kwavecreative.com/ has more information about her work, videos, as well as the articles.",
+      image: Kathleen,
+    },
+    {
+      id: 5,
+      name: "Val Jara",
+      position: "Integrations Engineer II",
+      bio: "Hello! I’m Val, I’m a Software Engineer with four years of industry experience, currently working at a NYC-based work orchestration and observability startup. I’m also a Tiktok content creator who focuses on giving advice to underrepresented people interested in becoming Software Engineers, sharing my experiences in the tech industry, and showcasing how coding can be fun, creative, and for everybody! Outside of tech, I love art, fashion, urban planning, old school films, anime and Peruvian cuisine. Very excited to see you all at UnionHacks!",
+      image: Val,
     },
   ];
 
@@ -85,12 +98,12 @@ const Team = () => {
         </div>
         {selectedPerson && (
           <div
-            className="modal-bg fixed top-0 left-0 w-full h-full"
+            className="modal-bg fixed top-0 left-0 w-full h-full "
             onClick={handleClick}
           >
             {/* Modal code */}
             <div
-              className="team-bio-modal rounded-lg w-[95%] sm:w-[90%] lg:w-[50%] overflow-y-auto"
+              className="team-bio-modal rounded-lg w-[95%] sm:w-[90%] lg:w-[70%] overflow-y-auto"
               ref={modalRef}
             >
               <div className="px-2 pt-4 md:p-8">
@@ -122,7 +135,7 @@ const Team = () => {
           </div>
         )}
       </div>
-      <p className="text-center tracking-tight text-[white] mt-6 divide-solid divide-x divide-gray-50">
+      <p className="text-center tracking-tight text-[white]  divide-solid divide-x divide-gray-50">
         More will be announced soon!
       </p>
     </div>

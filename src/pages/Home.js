@@ -14,7 +14,30 @@ import Footer from "../components/Footer"
 
 const Home = () => {
   return (
-    <div>
+    <div
+      style={{
+        "::-webkit-scrollbar-track": {
+          backgroundColor: "transparent",
+        },
+        "::-webkit-scrollbar-thumb": {
+          backgroundColor: "#d4d4d4",
+          borderRadius: "6px",
+        },
+        "::-webkit-scrollbar-thumb:hover": {
+          backgroundColor: "#a6a6a6",
+        },
+        "::-webkit-scrollbar-thumb:active": {
+          backgroundColor: "#7c7c7c",
+        },
+        "::-webkit-scrollbar-track:active": {
+          backgroundColor: "#e0e0e0",
+        },
+        "::-webkit-scrollbar-corner": {
+          backgroundColor: "transparent",
+        },
+      }}
+      className="my-scrollbar-style"
+    > 
       <div id="stars"></div>
       <div id="stars2"></div>
       <div className="relative ">
@@ -91,7 +114,7 @@ const Home = () => {
       {/* ABOUT SECTION */}
       <About />
       <FAQ />
-      <Speakers/>
+      <Speakers />
       <Sponsors />
       <Schedule />
       <Team />

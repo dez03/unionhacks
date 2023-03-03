@@ -55,10 +55,52 @@ const Sponsors = () => {
               className="h-40 text-center"
             ></img>
           </a>
-          <a href="https://slingshotahead.com/">
+          <a href="https://booksy.com/en-us/447201_jc-s-barber-house_barber-shop_28875_union?do=open-widget&hl=en-US&gei=dvgBZJTPCaSnptQPiIyx0AQ&rwg_token=AI9VzbuZZ19TNIQTy-fpvl0lssgnmB_HTnz2VycCiOU1fzoWu2ECQ-Q1_Je0R0l8QOAN_Awfvo3dKjgUiavosIjTUBZhmLA28Q%3D%3D">
             <img
               src="https://d2zdpiztbgorvt.cloudfront.net/region1/us/447201/cover/d5dfe7787ca44847bf82a4a06ea16a-jc-s-barber-house-934acbfb628b4af9b3556fc1bd4781-booksy.jpeg?size=640x427"
               className="h-40 text-center"
+            ></img>
+          </a>
+          <a href="https://delkatrucking.com/">
+            <img
+              src="https://images-platform.99static.com/1i8RVD0Bk5i9xIfIcG2n3U1vXSc=/500x500/top/smart/99designs-contests-attachments/27/27927/attachment_27927144"
+              className="h-40 text-center"
+            ></img>
+          </a>
+          <a href="https://www.harborusa.com/">
+            <img
+              src="https://ite-prod-cdn-end.azureedge.net/sharedmedia/breakbulkamericas/media/assets/logo-harbor-freight-transport-corp-400px.jpg?ext=.jpg"
+              className="h-40 text-center"
+            ></img>
+          </a>
+          <a href="https://www.quicktransportsolutions.com/truckingcompany/newjersey/gem-transport-and-logistics-llc-usdot-3108335.php">
+            <img
+              src="https://media.licdn.com/dms/image/C560BAQGg7TCgKbw5Kw/company-logo_200_200/0/1519866329132?e=2147483647&v=beta&t=LGozz-qu8a8SBs4v5pttiE44uvu-1YZ-pUKUYLd7gjo"
+              className="h-40 text-center"
+            ></img>
+          </a>
+          <a href="https://www.stickeryou.com/">
+            <img
+              src="http://d3ccuprjuqkp1j.cloudfront.net/GeneralImages/sylogo_4x3.png"
+              className="h-40 text-center"
+            ></img>
+          </a>
+          <a href="https://www.ila1235fcu.com/">
+            <img
+              src="https://ilaunion.org/wp-content/uploads/International_Longshoremens_Association_logo-346x231-1.jpg"
+              className="h-40 text-center"
+            ></img>
+          </a>
+          <a href="http://www.heresthestorybooks.com/">
+            <img
+              src="http://www.heresthestorybooks.com/publishImages/index~~element986.png"
+              className="h-40 text-center mt-2"
+            ></img>
+          </a>
+          <a href="https://stores.partycity.com/us/nj/kenilworth/party-store-pc403.html?extcmp=GMBlisting_NJ_PC403_organic">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Party_City.svg/2560px-Party_City.svg.png"
+              className="h-40 text-center mt-2"
             ></img>
           </a>
         </h3>

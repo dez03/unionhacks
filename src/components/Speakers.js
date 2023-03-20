@@ -44,7 +44,7 @@ const Team = () => {
       id: 4,
       name: "Avi Schiffmann",
       position: "Founder of InternetActivism",
-      bio: "Bio Coming Soon. ",
+      bio: "Hi I'm Avi, Founder & President of InternetActivism.org, a nonprofit that builds digital tools that help improve the lives of those impacted by injustice and humanitarian crises worldwide. Last year, we built a website offering shelter to those displaced by the Ukrainian war that ultimately housed over 100,000 refugees. Today, our team is building an offline messaging app for any communication outage as a result of natural disasters, government shutdowns, or censorship. I'm coming from San Fransisco, and I am very excited to speak & mentor this year at UnionHacks!",
       image: Avi,
     },
     {
@@ -57,7 +57,7 @@ const Team = () => {
     {
       id: 5,
       name: "Val Jara",
-      position: "Integrations Engineer II",
+      position: "TikTok Influencer and Software Engineer",
       bio: "Hello! I’m Val, I’m a Software Engineer with four years of industry experience, currently working at a NYC-based work orchestration and observability startup. I’m also a Tiktok content creator who focuses on giving advice to underrepresented people interested in becoming Software Engineers, sharing my experiences in the tech industry, and showcasing how coding can be fun, creative, and for everybody! Outside of tech, I love art, fashion, urban planning, old school films, anime and Peruvian cuisine. Very excited to see you all at UnionHacks!",
       image: Val,
     },

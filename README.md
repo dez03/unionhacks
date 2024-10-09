@@ -1,5 +1,5 @@
 # unionhacks
-unionhacks website built by issac, dylan and aviel 
+unionhacks website built by aviel and isaac 
 
 # Getting Started with Create React App
 
